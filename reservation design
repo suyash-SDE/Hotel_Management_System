@@ -1,0 +1,24 @@
+--------------------------
+->new Reservation
+->check Reservation
+->get Room Number
+->update Reservation
+->Delete Reservation
+->exit
+
+while(True){
+    main menu
+}Quit->return
+
+//All about Database
+-----------------------
+DataBase Name ->hotel_db
+Table name->reservations
+
+Schema
+------------------------------
+reservation_id int Auto inc.
+guest_name varchar not null
+room_number int not null
+contact_number varchar not null
+reservation_date timestamp default
